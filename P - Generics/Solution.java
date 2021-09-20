@@ -17,3 +17,14 @@ class Solution {
         }
     }
 }
+
+
+New Solution (previous one not working) ->
+    
+    public static <Elements> void printArray(Elements[] array)
+    {
+        for(Elements elements: array)
+        {
+            System.out.println(elements);
+        }
+    }
